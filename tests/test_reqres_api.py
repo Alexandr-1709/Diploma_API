@@ -26,12 +26,12 @@ def test_create_user():
 @allure.severity(Severity.CRITICAL)
 @allure.label('owner', 'Nikiforov')
 @allure.description('Обновление пользователей')
-@allure.feature('Проверка обновления id, name, job пользователя')
+@allure.feature('Проверка обновления name, job пользователя по id')
 def test_put_update_user():
     pyload = {"name": name_update,
               "job": job_update}
     with allure.step('POST запрос с валидными данными'):
-        response = reqres_session.put("/api/users/21", json=pyload)
+        response = reqres_session.put(f"/api/users/{id_user_update}", json=pyload)
     with allure.step('Проверка успешного обновления пользователя'):
         assert response.status_code == 200
         assert response.json()['name'] == 'test'

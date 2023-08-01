@@ -7,7 +7,7 @@ create_job = 'AQA engineer'
 # test_get_user
 id_user = 6
 # test_update_user
-id_user_update = '4'
+id_user_update = 4
 name_update = 'test'
 job_update = 'engineer'
 # test_delete_user
