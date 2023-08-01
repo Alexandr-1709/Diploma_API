@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "diploma-api"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr <nikiforov1709@ya.ru>"]
+readme = "README.md"
+packages = [{include = "diploma_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "2.31.0"
+pytest = "7.3.2"
+allure-pytest = "^2.13.2"
+curlify = "2.2.1"
+jsonschema = "4.17.3"
+pydantic = "^1.10.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.0.0a6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
