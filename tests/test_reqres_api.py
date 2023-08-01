@@ -27,7 +27,7 @@ def test_create_user():
 @allure.label('owner', 'Nikiforov')
 @allure.description('Обновление пользователей')
 @allure.feature('Проверка обновления id, name, job пользователя')
-def test_put_update_user_schema_validation():
+def test_put_update_user():
     pyload = {"name": name_update,
               "job": job_update}
     with allure.step('POST запрос с валидными данными'):
