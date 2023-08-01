@@ -28,13 +28,13 @@
 
 </p>
 
-## <img width="3%" title="Jenkins" src="logo/jenkins.svg">Сборка в Jenkins
+## <img width="3%" title="Jenkins" src="images/logo/jenkins.png">Сборка в Jenkins
 [JOB](https://jenkins.autotests.cloud/job/AleksandrN_reqres_api/)
 <p align="left">
   <img width="90%" src="images/screenshots/jenkins_project_api.jpg"/>
 </p>
 
-## <img width="3%" title="Jenkins" src="logo/allure.svg">Allure report
+## <img width="3%" title="Allure report" src="images/logo/allure_report.png">Allure report
 [Ссылка на отчет](https://jenkins.autotests.cloud/job/Students/job/Requests_API/allure/)
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
 <p align="left">
@@ -49,7 +49,7 @@
 
 <!-- Allure TestOps -->
 
-### <img width="3%" title="Allure TestOps" src="logo/allure_testops.png"> Интеграция с Allure TestOps
+### <img width="3%" title="Allure TestOps" src="images/logo/allure_testops.png"> Интеграция с Allure TestOps
 ### [Dashboard](https://allure.autotests.cloud/project/3599/dashboards)
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
 ![This is an image](images/screenshots/allure_testops_api_graph.jpg)
